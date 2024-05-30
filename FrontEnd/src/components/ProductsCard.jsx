@@ -27,7 +27,7 @@ export default function ProductsCard({img,name,price,category,des,id}) {
   console.log(category)
 
   return (
-    <div onClick={showInfo}  className="rounded-md border hover:cursor-pointer">
+    <div onClick={showInfo}  className="rounded-md border hover:cursor-pointer" id='card'>
           <img
             src={img[0]}
             alt="Laptop"
